@@ -1,5 +1,6 @@
 pipeline {
     agent any
+	stages {
 
     stage('Biuld') {
             steps {
@@ -19,3 +20,4 @@ pipeline {
             }
         }
     }
+}
